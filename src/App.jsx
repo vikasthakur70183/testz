@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className='Video'>
-        <video src={video} autoPlay loop muted />
+        <video src={video} autoPlay loop muted preload="none" />
         <div className="content">
           <h1>welcome</h1>
           <p>to my site.</p>
